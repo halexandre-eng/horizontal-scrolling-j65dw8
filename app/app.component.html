@@ -1,0 +1,24 @@
+<div class="main-container">
+    <div class="content-container">
+        <div class="content-area">
+
+          <h3>Abas com Scrool</h3>
+          <div>
+            
+            <div #widgetsContent class="scroll-container hide-scrollbar">
+              <div *ngFor="let item of scrollItems">
+                {{ item }}
+              </div>
+            </div>
+            <button (click)="left()"> < </button>
+            <button (click)="right()"> ></button>
+          </div>
+          
+          
+          
+
+
+
+        </div>
+    </div>
+</div>
